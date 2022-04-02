@@ -24,29 +24,29 @@
 </head>
 
 <body>
-    
-        <nav id="topo">
-            <!-- Conteúdo do menu de navegação -->
-            <!-- Responsive navbar-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="#!">Henrique Silva</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation"><span>
-                            class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-                        </ul>
-                    </div>
+
+    <nav id="topo">
+        <!-- Conteúdo do menu de navegação -->
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand" href="#!">Henrique Silva</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span>
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    </ul>
                 </div>
-            </nav>
+            </div>
         </nav>
-        <main>
+    </nav>
+    <main>
         <!-- Header-->
         <header class="bg-dark py-5"
             style="background: url('./assets/img/background.png') no-repeat center center; background-size:cover; height: 650px;">
@@ -61,15 +61,15 @@
                             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
                                 <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://wa.me/5587999510304"
                                     target="_blank"> Entre em contato</a>
-                                <!--  CTA --> <a class="btn btn-outline-light btn-lg px-4" href="#sobre">Saiba
-                                    mais</a>-->
+                                <!--  CTA --> <a class="btn btn-outline-light btn-lg px-4" href="#sobre">Saiba mais</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-
+    </main>
+    
         <!--sobre section-->
         <section class="bg-white border-bottom leiry" id="sobre">
             <div class="text-center pt-2">
@@ -135,7 +135,7 @@
                     alt=""></a>
         </div>
 
-           <!--projetos section-->
+        <!--projetos section-->
         <section class="bg-light py-5" id="projetos">
             <div class="container col-lg-9 col-md-12 px-5 my-5">
                 <div class="text-center">
@@ -152,10 +152,12 @@
                                         <h3 class="card-title">Handtalk</h3>
                                         <p class="card-text">Proposta de redesign, para a loja de customização do
                                             aplicativo Handtalk.</p>
-                                        <i>
-                                            <p class="card-text tb1 mb-4">Case Desafio</p>
-                                        </i>
-                                        <p class="">Em Construção</p>
+                                        <aside>
+                                            <i>
+                                                <p class="card-text tb1 mb-4">Case Desafio</p>
+                                            </i>
+                                            <p class="">Em Construção</p>
+                                        </aside>
                                     </div>
                                 </div>
                             </div>
@@ -168,10 +170,12 @@
                                         <p class="card-text">Curso de UX Design voltado a promover a inclusão de
                                             pessoas
                                             LGBTQI+.</p>
-                                        <i>
-                                            <p class="card-text tb1 mb-4">Case Desafio</p>
-                                        </i>
-                                        <p class="">Em Construção</p>
+                                        <aside>
+                                            <i>
+                                                <p class="card-text tb1 mb-4">Case Real</p>
+                                            </i>
+                                            <p class="">Em Construção</p>
+                                        </aside>
                                     </div>
                                     <!--CTA SAIBA MAIS--- > <button type="button" class="btn btn-primary" data-toggle="modal"
                                             data-target=".bd-example-modal-lg4">Acessar projeto</button>-->
@@ -216,10 +220,12 @@
                                         <h3 class="card-title">Caixa Azul</h3>
                                         <p class="card-text">Ferramenta administrativa para gestão do negócio de
                                             Microempreendedores.</p>
-                                        <i>
-                                            <p class="card-text tb1 mb-4">Case Desafio</p>
-                                        </i>
-                                        <p class="">Em Construção</p>
+                                        <aside>
+                                            <i>
+                                                <p class="card-text tb1 mb-4">Case Desafio</p>
+                                            </i>
+                                            <p class="">Em Construção</p>
+                                        </aside>
                                     </div>
                                 </div>
                             </div>
@@ -296,24 +302,30 @@
                                 <img class="card-img-top mb-3" style="width: 100px;" src="./assets/img/cursos/mergo.png"
                                     alt="card image logo da escola Mergo">
                                 <h3 class="tt-b1 text-center text-uppercase fw-bolder mb-3">UX Design</h3>
+                                <aside>
                                 <p class="text-center card-text tb1">Formação em <br> UX Design</p>
+                            </aside>
                             </div>
 
                             <div class="col-lg-4 mb-5 mb-lg-0">
                                 <img class="card-img-top mb-3" style="width: 100px;" src="./assets/img/cursos/mergo.png"
                                     alt="card image logo da escola Mergo">
                                 <h3 class="tt-b1 text-center text-uppercase fw-bolder mb-3">UX Research</h3>
+                                <aside>
                                 <p class="text-center card-text tb1">Métodos de pesquisa e <br>entrevistas com
                                     usuário
                                 </p>
+                            </aside>
                             </div>
 
                             <div class="col-lg-4  mb-5 mb-lg-0">
                                 <img class="card-img-top mb-3" style="width: 100px;" src="./assets/img/cursos/mergo.png"
                                     alt="card image logo da escola Mergo">
                                 <h3 class="tt-b1 text-center text-uppercase fw-bolder mb-3">Product Research</h3>
+                                <aside>
                                 <p class="text-center card-text tb1">Métodos de pesquisa e <br> validação do produto
                                 </p>
+                            </aside>
                             </div>
                         </div>
                         <div class="row gx-5 pt-3">
@@ -321,21 +333,27 @@
                                 <img class="card-img-top mb-0" style="width: 100px;" src="./assets/img/cursos/deque.png"
                                     alt="card image Deque University">
                                 <h3 class="tt-b1 text-center text-uppercase fw-bolder mb-3">Accessibility</h3>
+                                <aside>
                                 <p class="text-center card-text tb1">Designing an accessible <br>User Experience</p>
+                            </aside>
                             </div>
 
                             <div class="col-lg-4">
                                 <img class="card-img-top mb-0" style="width: 100px;" src="./assets/img/cursos/deque.png"
                                     alt="Card image Deque University">
                                 <h3 class="tt-b1 text-center text-uppercase fw-bolder mb-3">Accessibility</h3>
+                                <aside>
                                 <p class="text-center card-text tb1">Disabilities, <br>Guidelines, and Laws</p>
+                            </aside>
                             </div>
 
                             <div class="col-lg-4 mb-5 mb-lg-0">
                                 <img class="card-img-top mb-0" style="width: 100px;" src="./assets/img/cursos/alura.png"
                                     alt="Card image Alura">
                                 <h3 class="tt-b1 text-center text-uppercase fw-bolder mb-3">UX Research</h3>
+                                <aside>
                                 <p class="text-center card-text tb1">Formação em <br> UX Research</p>
+                            </aside>
                             </div>
                         </div>
                     </div>
@@ -369,7 +387,7 @@
                 </section>
             </div>
         </section>
-    </main>
+    
 
     <!-- Testimonials section
         <section class="bg-light py-5 border-bottom">
@@ -420,7 +438,7 @@
         </section>
     -------------------------------------------->
 
-       <section class="bg-white footer text-center">
+    <section class="bg-white footer text-center">
         <div class="container">
             <div class="row mb-5">
                 <div class="text-center col-md-12 col-lg-0  mb-lg-0 py-5 my-5" id="contato">
@@ -448,7 +466,7 @@
         </div>
     </section>
 
- <!-- Footer About Text-->
+    <!-- Footer About Text-->
     <footer class="text-center py-5 bg-dark">
         <div class="container px-5">
             <p class="m-0 text-center text-white">Copyright &copy; Henrique Silva 2022</p>
